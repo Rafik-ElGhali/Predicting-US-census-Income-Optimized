@@ -218,7 +218,7 @@ df_clean_data['native_country'].loc[list_index_native_country]=df_minus_one_nati
 
 array_of__string_columns_prime = df_clean_data.select_dtypes(include='int').columns.tolist()
 
-#èdef calculate_correlation(data,columns):
+#def calculate_correlation(data,columns):
 #    for column_name in columns:
 #       df_corr=pd.DataFrame(data=data, columns=[column_name,'income']) 
 #       corrMatrix = df_corr.corr()
