@@ -1,0 +1,5 @@
+# Ignore Python bytecode files
+Proj1.pyc
+Project.pyc
+Test.pyc
+test2.pyc
